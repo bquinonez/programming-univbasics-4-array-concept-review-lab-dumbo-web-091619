@@ -1,11 +1,7 @@
 def find_element_index(array, value_to_find)
   # Add your solution here
-  element = array.at(value_to_find)
-  if element = value_to_find
-    return element 
-  else
-    nil
-  end
+  array.at(value_to_find)
+  
   
 
 end
