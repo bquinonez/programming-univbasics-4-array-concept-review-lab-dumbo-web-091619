@@ -1,6 +1,8 @@
 def find_element_index(array, value_to_find)
   # Add your solution here
-  array.at(value_to_find)
+  array.at(value_to_find) do |element|
+    element
+  end
   
   
 
